@@ -1,0 +1,6 @@
+# Directories
+coverage
+node_modules
+
+# Files
+*.sublime-workspace
