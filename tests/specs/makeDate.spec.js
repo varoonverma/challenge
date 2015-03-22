@@ -9,7 +9,7 @@ describe('converting a String to a date Object', function () {
         var date = new Date('12/11/2014');
         expect(makeDate('11/12/2014')).toEqual(date);
 
-        var date = new Date('02/29/2000');
+        date = new Date('02/29/2000');
         expect(makeDate('29/02/2000')).toEqual(date);
     });
 
