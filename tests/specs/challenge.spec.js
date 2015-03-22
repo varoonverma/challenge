@@ -7,9 +7,4 @@ var
     });
 
 describe('cli', function () {
-
-    it('should be able to subtract two numbers that are passed in from the command line', function () {
-        expect(mockedChallenge1).toEqual(3);
-    });
-
 });
